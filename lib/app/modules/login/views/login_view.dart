@@ -11,12 +11,26 @@ class LoginView extends GetView<LoginController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login'),
+        title: const Text('SIMAK JNE'),
         centerTitle: true,
       ),
       body: ListView(
         padding: EdgeInsets.all(20),
         children: [
+          Container(
+            height: MediaQuery.of(context).size.height * 15 / 100,
+            width: MediaQuery.of(context).size.width,
+            padding: const EdgeInsets.only(left: 32),
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/logo.png'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
           TextField(
             autocorrect: false,
             controller: controller.emailC,
