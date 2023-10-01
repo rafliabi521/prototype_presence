@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1088027730600",
+    "project_id": "prototype-presence-5f8f2",
+    "storage_bucket": "prototype-presence-5f8f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088027730600:android:876f21723e4e05b04b189d",
+        "android_client_info": {
+          "package_name": "com.rafliabi.prototype_presence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088027730600-fu02qn9oj332a083ui4nk1htoovnmhd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhxUfM0a5yiRYCgWV-kkXFsmUm7CaB5NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088027730600-fu02qn9oj332a083ui4nk1htoovnmhd8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088027730600-pn4vfrosha9neavau5bfvibugdfvj9mq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafliabi.prototypePresence"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
